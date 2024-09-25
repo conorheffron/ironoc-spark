@@ -1,0 +1,5 @@
+name: environment
+channels:
+  - defaults
+dependencies:
+  - python
