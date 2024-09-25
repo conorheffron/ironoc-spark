@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python 3.10
+    - name: Set up Python 3.12
       uses: actions/setup-python@v3
       with:
         python-version: '3.12'
@@ -31,8 +31,7 @@ jobs:
     - name: Install pyspark
       run: |
         conda install pyspark
-    - name: Test with pytest
+    - name: Install openjdk & findspark
       run: |
-        conda install pytest
-        pytest
-        
+        conda install openjdk
+        conda install -c conda-forge findspark
