@@ -9,3 +9,5 @@ Run Jupyter Notebook via Docker with PySpark & JDK pre-installed:
 docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 ```
 - Add csv, json & ipynb files to workspace directory
+
+[Jupyter Notebook](https://github.com/conorheffron/ironoc-spark/blob/main/task-1-nb.ipynb)
